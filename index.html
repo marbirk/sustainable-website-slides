@@ -1,0 +1,235 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Nachhaltige Websites</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-markdown data-background-image="https://images.unsplash.com/photo-1564460549828-f0219a31bf90?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80">
+					<textarea data-template>
+					  # Nachhaltige Websites
+					</textarea>
+				  </section>
+
+				  <section data-markdown>
+					<textarea data-template>
+					  ## Marcel Birkhahn
+					  Tech Lead Web @ Steinberg Media Technologies GmbH
+					  Xing
+					  LinkedIn
+					  Twitter
+					</textarea>
+				  </section>
+
+				  <section>
+					 <section data-markdown>
+						<textarea data-template>
+						## Warum?
+						</textarea>
+					  </section>
+					  <section data-markdown>
+						<textarea data-template>
+							### 1993
+							- Link zu Cern Seite
+							- nur HTML
+							- ohne externe Skripte (JS, CSS) oder Font-Dateien
+							- keine Cookies
+							- keine Bilder oder Videos
+							- 3.364 Byte
+							- keine messbaren Emissionen
+							- aber kein Green Hosting
+						</textarea>
+					  </section>
+
+					  <section data-markdown>
+						<textarea data-template>
+							<a href="https://de.statista.com/infografik/2425/das-passiert-in-einer-minute-im-internet/" target="_blank" title="Infografik: Das passiert im Internet in einer Minute | Statista"><img src="https://cdn.statcdn.com/Infographic/images/normal/2425.jpeg" alt="Infografik: Das passiert im Internet in einer Minute | Statista" width="100%" height="auto" style="width: 100%; height: auto !important; max-width:600px;-ms-interpolation-mode: bicubic;"/></a>
+						</textarea>
+					  </section>
+
+					  <section data-markdown>
+						<textarea data-template>
+						  Stromverbrauch weltweit - Statistik?
+						  Internet auf Platz 3
+						  Wie viele Websites gibt es? Wachstum über die Jahre?
+						</textarea>
+					  </section>
+
+					  <section data-markdown>
+						<textarea data-template>
+						  Hoher Stromverbrauch (fossile Brennstoffe) = hoher CO2 Ausstoß
+						</textarea>
+					  </section>
+
+					  <section data-markdown>
+						<textarea data-template>
+						  User: Weniger Daten -> schnellere Ladezeiten -> Steigerung der UX
+						  Unternehmen: Weniger Daten -> weniger Kosten
+						  Zusammenhang Ladezeit und Umsatz -> Quelle?
+						</textarea>
+					  </section>
+				  </section>
+				  
+				  <section>
+					<section data-markdown>
+						<textarea data-template>
+						 ## Messbarkeit
+						</textarea>
+					  </section>
+					
+					  <section data-markdown>
+						<textarea data-template>
+							- Website Carbon Calculator
+							- AWS Carbon Footprint Tool
+						  	- Digitalbeacon
+						  	- Are my third parties green?
+						  	- Ecograder
+						  	- Ryte / Screaming Frog / Google Search Console  
+						</textarea>
+					  </section>
+				  </section>
+
+				  <section>
+					<section data-markdown>
+						<textarea data-template>
+						  ## Lösungen
+						</textarea>
+					  </section>
+
+					  <section data-markdown>
+						<textarea data-template>
+						  ### Green Hosting
+						</textarea>
+					  </section>
+
+					  <section data-markdown>
+						<textarea data-template>
+							<a href="https://www.thegreenwebfoundation.org/green-web-check/" target="_blank" title="Green Web Check"><img src="https://cloud.marcelbirkhahn.com/s/SRrEZ9R57zAMWNF" alt="Green Web Check" width="100%" height="auto" style="width: 100%; height: auto !important; max-width:600px;-ms-interpolation-mode: bicubic;"/></a>
+						</textarea>
+					  </section>
+
+					  <section data-markdown>
+						<textarea data-template>
+							<a href="https://www.thegreenwebfoundation.org/directory/" target="_blank" title="Green Hosting Directory"><img src="https://cloud.marcelbirkhahn.com/s/SRrEZ9R57zAMWNF" alt="Green Hosting Directory" width="100%" height="auto" style="width: 100%; height: auto !important; max-width:600px;-ms-interpolation-mode: bicubic;"/></a>
+						</textarea>
+					  </section>
+
+					  <section data-markdown>
+						<textarea data-template>
+						  ### Dark Mode
+						</textarea>
+					  </section>
+
+					  <section data-markdown>
+						<textarea data-template>
+							<pre><code data-trim data-noescape>
+								@media (prefers-color-scheme: dark) {
+									/* CSS Code wenn Dark Mode aktiv */ 
+								}
+							</code></pre>
+						</textarea>
+					  </section>
+
+					  <section data-markdown>
+						<textarea data-template>
+							
+								<picture>
+									<source srcset="dark.png" media="(prefers-color-scheme: dark)">
+									<img src="light.png" alt="">
+								</picture>
+					
+						</textarea>
+					  </section>
+
+					  <section data-markdown>
+						<textarea data-template>
+							
+							<p class="ciu_embed" data-feature="prefers-color-scheme" data-periods="future_1,current,past_1,past_2" data-accessible-colours="false">
+								<picture>
+								<source type="image/webp" srcset="https://caniuse.bitsofco.de/image/prefers-color-scheme.webp">
+								<source type="image/png" srcset="https://caniuse.bitsofco.de/image/prefers-color-scheme.png">
+								<img src="https://caniuse.bitsofco.de/image/prefers-color-scheme.jpg" alt="Data on support for the prefers-color-scheme feature across the major browsers from caniuse.com">
+								</picture>
+							</p>
+					
+						</textarea>
+					  </section>
+
+					  <section data-markdown>
+						<textarea data-template>
+						  ### Datensparsamkeit
+						  - Bilder (neue Formate, Tabelle, webp bei caniuse)
+						  - Template-Auswahl (z.B. bei Wordpress)
+						  - Plugin-Auswahl + nicht genutzte deaktivieren
+						  - JS-Optimierungen (Code Splitting, React)
+						  - CSS Optimierungen (aussortieren von nicht genutzten Styles, TailwindCSS?)
+						  - schlankes Web Design? (Buch?)
+						</textarea>
+					  </section>
+
+					  <section data-markdown>
+						<textarea data-template>
+						  #### Neue Bildformate verwenden
+						</textarea>
+					  </section>
+
+					  <section data-markdown>
+						<textarea data-template>
+						
+						  <p class="ciu_embed" data-feature="webp" data-periods="future_1,current,past_1,past_2" data-accessible-colours="false">
+							<picture>
+							<source type="image/webp" srcset="https://caniuse.bitsofco.de/image/webp.webp">
+							<source type="image/png" srcset="https://caniuse.bitsofco.de/image/webp.png">
+							<img src="https://caniuse.bitsofco.de/image/webp.jpg" alt="Data on support for the webp feature across the major browsers from caniuse.com">
+							</picture>
+						</p>
+						</textarea>
+					  </section>
+
+					  <section data-markdown>
+						<textarea data-template>
+						  ### Kompensation
+						  - Vorsicht vor Green Washing bei Anbietern
+						  - lieber selbst berechnen und ausgleichen
+						  - klimapunkt.de für Aufforstung deutscher Wälder
+						  - 30 Euro pro Tonne CO2
+						</textarea>
+					  </section>
+				  </section>
+			
+				  <section>
+					Klimaschutz ist Gesundheitsschutz
+					Hirschhausen Instagram?
+				  </section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/public/caniuse-embed.min.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
